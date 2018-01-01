@@ -1,0 +1,32 @@
+{
+  "name": "ftp-s3-hub",
+  "version": "0.1.0",
+  "description": "Node FTP server daemon that forwards files to AWS S3",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tbd.git"
+  },
+  "keywords": [
+    "s3",
+    "ftp",
+    "proxy",
+    "webcam"
+  ],
+  "author": "Robert Dominy",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.156.0",
+    "ftp-srv": "^2.13.3",
+    "jsftp": "^2.1.2",
+    "mime-types": "^2.1.17",
+    "pixl-args": "^1.0.3",
+    "pixl-server": "^1.0.10",
+    "pixl-server-web": "^1.0.25",
+    "pixl-tools": "^1.0.11",
+    "unixpass": "^1.0.1"
+  }
+}
